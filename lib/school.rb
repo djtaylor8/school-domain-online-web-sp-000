@@ -12,8 +12,8 @@ class School
     else
     @roster[grade] = []
     @roster[grade] << name
+    end
   end
-end
   
   def grade(grade_level)
     @roster[grade_level]
@@ -21,4 +21,6 @@ end
   
   def sort
     @roster.sort
+  end
+  
 end
