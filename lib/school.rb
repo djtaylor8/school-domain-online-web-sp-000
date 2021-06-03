@@ -21,7 +21,7 @@ class School
   
   def sort
    @roster.each do |key, value|
-     @roster[key] = value.sort{|a,b| a <=> b}
+     value.sort{|a,b| a <=> b}
    end
   end
   
