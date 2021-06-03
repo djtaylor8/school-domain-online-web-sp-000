@@ -20,7 +20,8 @@ class School
   end
   
   def sort
-   @roster.sort{|a,b| a <=> b}.to_h 
+   @roster.each do |key, value|
+     
   end
   
 end
